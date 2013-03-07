@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 
+gem 'bootstrap-sass', '2.0.4'
+
 gem 'pg', '0.12.2'
 
 # Bundle edge Rails instead:
@@ -33,6 +35,7 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
+  #gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
   gem 'terminal-notifier-guard'
   gem 'rb-fsevent', '0.9.3', :require => false
 end
