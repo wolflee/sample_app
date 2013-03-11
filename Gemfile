@@ -38,6 +38,7 @@ group :test do
   #gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
   gem 'terminal-notifier-guard'
   gem 'rb-fsevent', '0.9.3', :require => false
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 # To use ActiveModel has_secure_password
